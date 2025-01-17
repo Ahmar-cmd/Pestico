@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "../../components/Form";
-import { socialMedia, socialMedia2 } from "../../constants";
+import { socialMedia2 } from "../../constants";
 import Link from "next/link";
 import Image from "next/image";
 

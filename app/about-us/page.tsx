@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { Button, Testimonials } from "../../components";
 import AboutSec from "../../components/AboutSec";

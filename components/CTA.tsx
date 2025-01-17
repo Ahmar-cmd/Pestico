@@ -8,7 +8,7 @@ const CTA = () => (
   >
     <div className="flex-1 flex flex-col">
       <h2 className="font-abrilFatface font-semibold sm:text-[45px] text-[40px] leading-[45px] sm:leading-[50px] w-full">
-        Let's try <span className="text-primary">our service</span> now!
+        Let&apos;s try <span className="text-primary">our service</span> now!
       </h2>
       <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
       Eco-friendly pest control. Quick responses. Customized solutions. Protect your home and family safely.
