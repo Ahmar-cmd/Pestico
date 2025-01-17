@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.s-heading{
+    @apply text-[18px] font-semibold text-primary;
+}
+
+.l-heading{
+    @apply sm:text-[50px] text-[40px] text-center font-bold font-abrilFatface;
+}
+
+.c-heading{
+    @apply text-[22px] font-semibold leading-5;
+}
+
+.dim-span{
+    @apply text-[16px] text-dimWhite;
+}
