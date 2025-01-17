@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className="font-poppins">
+    <section>
       <div
         className="w-full h-[330px] bg-cover bg-center flex flex-col justify-center items-center"
         style={{ backgroundImage: "url('/bg-2.jpg')" }}

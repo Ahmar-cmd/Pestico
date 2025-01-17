@@ -27,7 +27,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               onClick={() => setActive(nav.title)}
-              className={`font-poppins font-bold cursor-pointer  text-[17px] hover:text-secondary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+              className={`font-bold cursor-pointer  text-[17px] hover:text-secondary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
              ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} ${
                 active === nav.title ? "text-primary" : "text-black"
               }`}
@@ -67,7 +67,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-white text-[16px] transition ease-in-out delay-150  hover:text-secondary hover:-translate-y-1 hover:scale-110 duration-300
+                className={`font-normal cursor-pointer text-white text-[16px] transition ease-in-out delay-150  hover:text-secondary hover:-translate-y-1 hover:scale-110 duration-300
                ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
                ${active === nav.title ? "text-primary" : "text-black"}`}
               >

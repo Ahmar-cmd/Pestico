@@ -9,7 +9,7 @@ interface Props {
 const ServiceSec = ({ className, limit = 4 }: Props) => {
   return (
     <div
-      className={`w-full py-16 sm:py-24 px-8 sm:px-16 bg-service font-poppins flex flex-wrap justify-center gap-7 ${className}`}
+      className={`w-full py-16 sm:py-24 px-8 sm:px-16 bg-service flex flex-wrap justify-center gap-7 ${className}`}
     >
       {serviceLinks.slice(0, limit).map((service) => (
         <div
@@ -32,7 +32,7 @@ const ServiceSec = ({ className, limit = 4 }: Props) => {
           </span>
           <button
             type="button"
-            className="bg-white text-[16px] hover:text-white hover:bg-primary font-poppins text-center border 
+            className="bg-white text-[16px] hover:text-white hover:bg-primary text-center border 
             hover:border-none border-gray-300 px-6 py-3 rounded-tr-none rounded-full"
           >
             Learn More

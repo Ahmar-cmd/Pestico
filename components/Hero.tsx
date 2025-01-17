@@ -13,7 +13,7 @@ const Hero = () => {
         <h1 className="flex-1 font-abrilFatface font-bold text-[45px] sm:text-[72px] leading-[50px] sm:leading-[80px]">
           Treating <br /> <span>Customers</span> <br /> Like Family
         </h1>
-        <span className="md:text-2xl text-xl font-poppins">Discover your next great <br className="md:hidden"/>experience.</span>
+        <span className="md:text-2xl text-xl">Discover your next great <br className="md:hidden"/>experience.</span>
         <Link href='/our-services'><Button type="button">Schedule Serevices</Button></Link>
       </div>
      

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .s-heading{
-    @apply text-[18px] font-semibold text-primary;
+    @apply text-[18px] font-poppins font-semibold text-primary;
 }
 
 .l-heading{

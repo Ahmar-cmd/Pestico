@@ -14,7 +14,7 @@ const FAQsSec = () => {
     };
 
   return (
-    <article className="font-poppins bg-white sm:px-64 px-3 sm:py-20 py-10 mb-3">
+    <article className="bg-white sm:px-64 px-3 sm:py-20 py-10 mb-3">
       <h1 className='l-heading leading[60px] mb-3'>Common <span className='text-primary'>Questions</span></h1>
       {faqs.map((faq, i) => {
         return (

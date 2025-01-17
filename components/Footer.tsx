@@ -15,7 +15,7 @@ const Footer = () => (
             className="object-contain cursor-pointer"
           />
         </Link>
-        <p className="font-poppins text-[16px] leading-[24px] mt-4 max-w-[300px]">
+        <p className="text-[16px] leading-[24px] mt-4 max-w-[300px]">
         Effective pest solutions for a safer, healthier living space.
         </p>
       </div>
@@ -23,7 +23,7 @@ const Footer = () => (
       <div className="flex flex-wrap w-full sm:w-auto gap-8 pl-[27px] md:pl-0">
         {footerLinks.map((footerlink) => (
           <div key={footerlink.title} className="min-w-[150px] sm:max-w-[200px]">
-            <h4 className="font-poppins font-semibold text-white text-[20px] mb-4">
+            <h4 className="font-semibold text-white text-[20px] mb-4">
               {footerlink.title}
             </h4>
             <ul className="space-y-3">
@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex flex-col sm:flex-row flex-wrap justify-between items-center border-t border-gray-700 pt-6 sm:px-36 gap-4">
-      <p className="font-poppins text-center text-[14px] sm:text-[16px]">
+      <p className="text-center text-[14px] sm:text-[16px]">
        <span className="text-primary">Pestico</span> © 2025. All Right Reserved
       </p>
 
