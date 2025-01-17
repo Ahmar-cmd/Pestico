@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { Footer, Navbar } from "../components";
 import { Toaster } from "react-hot-toast";
 import "./globals.css";
+import { Poppins } from "@next/font/google";
+
+const poppins = Poppins({
+  variable: "--display-font",
+  weight: '400',
+});
 
 export const metadata: Metadata = {
   title: "Pestico - Reliable Pest Control Services in Canada.",
@@ -49,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-white`}
+        className={`${poppins.variable}antialiased bg-white`}
       >
         <Navbar/>
         {children}
